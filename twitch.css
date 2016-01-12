@@ -1,0 +1,105 @@
+.row.text-center > div {
+  display: inline-block;
+  position: relative;
+  float: none;
+}
+
+.menu {
+  padding-top: 6px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: #F47564;
+  color: white;
+  height: 40px;
+  width: 100px;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 20px;  
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.arrows {
+  font-size: 0px;
+}
+
+.arrow-show {
+  margin-top: 0px;
+  width: 10px;
+  border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #F47564;
+  display: inline-block;
+}
+
+.arrow-hide {
+  margin-left: 41px;
+  margin-right: 41px;
+  margin-top: 0px;
+  width: 10px;
+  border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #FFFFFF;
+  display: inline-block;
+}
+
+.search {
+  padding-top: 4px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  color: black;
+  height: 30px;
+  width: 250px;
+  border: 1px solid #F47564;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 14px;  
+}
+
+input {
+  position: absolute;
+  border: 0px;
+  height: 20px;
+  width: 195px;
+  padding-left: 5px;
+  outline: 0px;
+
+}
+
+#search_button:hover {
+  cursor: pointer;
+}
+
+
+.icon {
+  width: 50px;
+  margin-right: -4px;
+  margin-bottom: 5px;
+  color:  #000000;
+}
+
+.users {
+  text-align: left;
+  padding-left: 15px;
+  border: 0px;
+  border-style: solid;
+  width: 180px;
+  color:  #000000;
+  
+}
+
+.check {
+  width: 50px;
+  margin-left: -4px;
+  color:  #000000;
+}
+
+p {
+  font-size: 10px;
+  color: #808080;
+  position: absolute;
+}
